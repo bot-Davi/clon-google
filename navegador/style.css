@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+}
+
+
+header nav {
+   display: flex; 
+   white-space: nowrap;
+   justify-content: right;
+   margin-top: 8px;
+   margin-right: 22px;
+}
+
+.lt{
+    margin-top: 9px;
+}
+.lt a{
+    
+    margin-right: 15px;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+.contenedor-main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 124px;
+}
+
+.center img{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+
+
+.c2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+
+.box {
+    border: 1px solid #dfe1e5;
+    border-radius: 60px;
+    font-size: 14px;
+    
+
+}
+
+.box:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 0px 7px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buscar {
+    border: none;
+    outline: none;
+    font-size: 17.5px;
+    font-family: arial, sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+    width: 483px;
+    margin-top: 13px;
+}
+
+.bdor {
+    width: 31px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border: none;
+    border-radius: 4px;
+    margin-left: 15px;
+    height: 38px;
+    width: 168px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    
+}
+
+.botones {
+    margin-top: 25px; 
+    
+}
+
+.boton1:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 0px 7px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boton2:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 0px 7px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.referencia{
+flex-grow: 1;
+}
+
+
+
+
+.gb_g {
+   
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.gb_g path{
+    fill: currentColor;
+    color: #5f6368;
+}
+
+.bdor path {
+    fill: #9aa0a6;
+}
+
+
+.gb_j_gbii {
+    margin-right: -4px;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+
+
+.Gdd5U {
+    
+    bottom: -7px;
+    padding-top: 8px;
+    padding-right: 10px;
+    height: 25px;
+}
+
+
+.col{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+footer {
+
+    margin-top: 218px;
+    height: 90px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.footer-secondary{
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+/* Estilos para los enlaces en el footer */
+.footer-nav a,
+.footer-secondary a {
+  color: #737373;
+  text-decoration: none;
+  padding-right: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+ 
+}
+
+.footer-nav a:hover,
+.footer-secondary a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para la marca de Google en el footer */
+.footer-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-brand img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer-brand p {
+  color: #737373;
+  font-size: 14px;
+  margin: 0;
+}
+
+.pr{
+    justify-content: right;
+    display: flex;
+    margin-top: -31px;
+}
+.pr a{
+    margin-right: 10px;
+}
+
